@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کارت ویزیت دیجیتال | قالب کلاسیک</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: radial-gradient(circle at 30% 10%, #0b1f2e, #030a12);
+            font-family: 'Vazirmatn', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            max-width: 500px;
+            width: 100%;
+            background: rgba(10, 17, 40, 0.85);
+            backdrop-filter: blur(12px);
+            border-radius: 48px;
+            border: 1px solid rgba(245, 176, 65, 0.3);
+            padding: 32px 28px;
+            text-align: center;
+            color: #F0F3FA;
+            transition: 0.2s;
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.4);
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: 800;
+            color: #f5b041;
+            margin-bottom: 15px;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        .job {
+            font-size: 16px;
+            color: #f5b041;
+            margin-bottom: 25px;
+        }
+        .info {
+            background: rgba(0,0,0,0.3);
+            border-radius: 28px;
+            padding: 20px;
+            text-align: right;
+            margin-bottom: 25px;
+        }
+        .info p {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .info a {
+            color: #f5b041;
+            text-decoration: none;
+        }
+        .qr {
+            background: white;
+            padding: 10px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .qr img { width: 120px; height: 120px; }
+        .btn {
+            background: #f5b041;
+            color: #0a0f1f;
+            padding: 10px 20px;
+            border-radius: 60px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 11px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">ParsaKart</div>
+        <div class="name">نام</div>
+        <div class="job">لورم</div>
+        
+        <div class="qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://parsakart.ir/sample" alt="QR Code">
+        </div>
+        
+        <div class="info">
+            <p>📞 <a href="tel:09000024">۰۹0000۱۴۲۴</a> | <a href="tel:0910000098">۰۹۱۰۹00۰۹۸</a></p>
+            <p>✉️ <a href="mailto:gmail">gmail</a></p>
+            <p>💬 <a href="https:/000me/98919881424">واتساپ</a> | <a href="https0000abbas">تلگرام</a></p>
+            <p>📱 <a href="https://eitaa.com/abbas">ایتا</a> | <a href="https://instagr00m/abbas">اینستاگرام</a></p>
+        </div>
+        
+        <a href="#" class="btn">تماس بگیرید</a>
+        <div class="footer">🃏 ساخته شده با ParsaKart | همیشه به‌روز</div>
+    </div>
+</body>
+</html>
