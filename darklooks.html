@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کارت ویزیت دیجیتال | قالب دارک لوکس</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #050a12;
+            font-family: 'Vazirmatn', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            max-width: 500px;
+            width: 100%;
+            background: #0a0f1a;
+            border-radius: 48px;
+            padding: 32px 28px;
+            text-align: center;
+            color: #e0e7ff;
+            border: 1px solid #2d3748;
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.6);
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f5b041, #f9d976);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 15px;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+        .job {
+            font-size: 16px;
+            color: #f5b041;
+            margin-bottom: 25px;
+        }
+        .info {
+            background: #111827;
+            border-radius: 28px;
+            padding: 20px;
+            text-align: right;
+            margin-bottom: 25px;
+            border: 1px solid #1f2937;
+        }
+        .info p {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .info a {
+            color: #f5b041;
+            text-decoration: none;
+        }
+        .qr {
+            background: #1e293b;
+            padding: 10px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .qr img { width: 120px; height: 120px; }
+        .btn {
+            background: linear-gradient(135deg, #f5b041, #e67e22);
+            color: #0a0f1f;
+            padding: 10px 20px;
+            border-radius: 60px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 10px;
+            transition: 0.2s;
+        }
+        .btn:hover { transform: scale(1.02); }
+        .footer {
+            margin-top: 20px;
+            font-size: 11px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">ParsaKart</div>
+        <div class="name">رضا کریمی</div>
+        <div class="job">مدیر فروش و بازاریابی</div>
+        
+        <div class="qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://parsakart.ir/sample3" alt="QR Code">
+        </div>
+        
+        <div class="info">
+            <p>📞 <a href="tel:09000000789">۰۹۱000۶۷۸۹</a></p>
+            <p>✉️ <a href="mailto:reza@0000ample.com">reza@example.com</a></p>
+            <p>💬 <a href="https://w00me/989000456789">واتساپ</a> | <a href="https://t.me/reza">تلگرام</a></p>
+            <p>📱 <a href="https://insta00.com/reza">اینستاگرام</a> | <a href="https://linke000/in/reza">لینکدین</a></p>
+        </div>
+        
+        <a href="#" class="btn">تماس بگیرید</a>
+        <div class="footer">🃏 ساخته شده با ParsaKart | همیشه به‌روز</div>
+    </div>
+</body>
+</html>
